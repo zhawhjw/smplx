@@ -67,7 +67,7 @@ setup(name=NAME,
       url=URL,
       install_requires=[
           'numpy>=1.16.2',
-          'torch>=1.0.1.post2',
+          'torch==1.13.1+cu117',
       ],
       extras_require={
           'pyrender': pyrender_reqs,
